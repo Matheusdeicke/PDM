@@ -1,2 +1,2 @@
 # PDM
- Programação para Dispositivos Móveis
+ Repositório destinado a cadeira de Programação para Dispositivos Móveis - UNISC
