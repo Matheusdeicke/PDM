@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    android:id="@+id/mainLayout">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/poupanca_logo"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/labelInitialAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImage"
+        android:text="Valor Inicial:"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextInitialAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor em R$. Ex: 1700.00"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/labelInitialAmount"
+        android:backgroundTint="#000000"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/labelInvestmentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextInitialAmount"
+        android:text="Tempo da aplicação"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editTextInvestmentTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Em meses"
+        android:inputType="number"
+        android:layout_below="@id/labelInvestmentTime"
+        android:backgroundTint="#000000"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/labelInterestRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextInvestmentTime"
+        android:text="Taxa"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editTextInterestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex: 0.02"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/labelInterestRate"
+        android:backgroundTint="#000000"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextInterestRate"
+        android:layout_marginTop="31dp"
+        android:background="#204b9b"
+        android:text="Calcular"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

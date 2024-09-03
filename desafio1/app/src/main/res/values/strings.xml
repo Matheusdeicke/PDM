@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Investment Calculator</string>
+    <string name="initial_amount">Initial Amount:</string>
+    <string name="monthly_investment">Monthly Investment:</string>
+    <string name="investment_time">Investment Time:</string>
+    <string name="interest_rate">Interest Rate:</string>
+    <string name="calculate">Calculate</string>
+</resources>

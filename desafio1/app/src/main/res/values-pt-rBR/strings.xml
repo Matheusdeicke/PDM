@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculadora de Investimentos</string>
+    <string name="initial_amount">Valor Inicial:</string>
+    <string name="monthly_investment">Aplicação Mensal:</string>
+    <string name="investment_time">Tempo de Aplicação:</string>
+    <string name="interest_rate">Taxa de Juros:</string>
+    <string name="calculate">Calcular</string>
+</resources>
